@@ -1,0 +1,305 @@
+body {
+    margin-top: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+header {
+    background-color: #ffffff;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+
+}
+
+.container {
+    max-width: auto;
+    margin: 0 auto;
+    padding: 0 20px;
+
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+nav a {
+    color: #0066cc;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+
+.logo {
+    flex: 1;
+}
+
+.logo img {
+    height: 120px;
+}
+
+.content {
+    background-image: url('SENAC.jpg');
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 170px;
+    text-align: center;
+    color: rgb(30, 85, 110);
+
+    background-position: center center;
+    font-weight: bold;
+    text-shadow: 1 1;
+}
+
+
+.content h1 {
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+
+.content p {
+    font-size: 30px;
+    line-height: 1.5;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+
+
+
+header table {
+    border-collapse: collapse;
+    width: auto;
+}
+
+header td {
+    border: none;
+    text-align: center;
+    padding: 25px;
+    width: 20%;
+    /* tamanho inicial dos quadrados */
+}
+
+header td:first-child {
+    width: 50px;
+    /* mudando o tamanho do primeiro quadrado */
+}
+
+header td:nth-child(2) {
+    width: 400px;
+}
+
+header td:nth-child(3),
+header td:nth-child(4),
+header td:nth-child(5) {
+    width: 100px;
+}
+
+header td:last-child {
+    width: 250px;
+}
+
+.PERIODOEVENTO {
+
+    background-color: rgb(0, 76, 149);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px 0;
+    text-align: center;
+    color: rgb(65, 128, 157);
+    background-position: center center;
+    font-size: 25px;
+}
+
+.pagi-2 {
+    text-align: center;
+    height: 80px;
+    align-items: center;
+    padding: 30px;
+    height: 400px;
+
+    font-size: 20px;
+    color: rgb(65, 128, 157);
+    margin-bottom: 40px;
+}
+
+.conteudo {
+    text-align: justify;
+    font-size: 20px;
+    color: rgb(65, 128, 157);
+}
+
+.pagi-2 table {
+    border-collapse: collapse;
+    width: cover;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pagi-2 td {
+    border:none;
+    text-align: center;
+    padding: 20px 20px 20px 20px;
+}
+
+.pagi-2 td:first-child {
+    width: 500px;
+    height: 350px;
+    /* mudando o tamanho do primeiro quadrado */
+}
+
+.pagi-2 td:nth-child(2) {
+    width: 500px;
+    height: 350px;
+    /* mudando o tamanho do primeiro quadrado */
+}
+
+.programacao{   
+    
+    background-color: rgb(255, 255, 255);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px 0;
+    text-align: center;
+    color: rgb(65, 128, 157);
+    background-position: center center;
+    font-size: 25px;
+    height: 600px;
+
+   
+}
+
+#carr{
+
+    width: 1000px;
+    height: 1000px;
+    background: #fff;
+    margin: 0 auto;
+}
+
+#carrossel {
+
+    position: absolute;
+    width: 100%;
+    height: 450px;
+    width: 1000px;
+    overflow: hidden;
+
+
+}
+
+#container {
+    position: absolute;
+    width: auto;
+    height: 100%;
+
+    display: inline-flex;
+    transition: 0.6s ease-in-out;
+}
+
+#container #item {
+    position: relative;
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 300px;
+    height: 100%;
+    z-index: 2;
+}
+
+#container #item img {
+    width: 100%;
+    height: 100%;
+}
+
+#btnleft {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50px;
+    height: 100%;
+    opacity: 0.09;
+    cursor: pointer;
+    z-index: 3;
+}
+
+#btnright {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50px;
+    height: 100%;
+    opacity: 0.09;
+    cursor: pointer;
+    z-index: 3;
+}
+
+#container #limitador {
+    position: absolute;
+    margin: 0 7px;
+    width: 300px;
+    height: 100%;
+    opacity: 0;
+    right: 0;
+    z-index: 1;
+    background: blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.PARCEIROS {
+
+    background-color: rgb(0, 76, 149);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px 0;
+    text-align: center;
+    color: rgb(65, 128, 157);
+    background-position: center center;
+    font-size: 25px;
+
+  
+}
+
+.PARCEIROS table{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logos {
+    flex: 1;
+    height: 120px;
+    width: 150px;
+    padding-left: 25px;
+    padding-right: 25px;
+
+}
+
+.logos img{
+    height: 100px;
+}
+
+footer {
+    margin-top: 10px;
+    text-align: center;
+}
