@@ -129,8 +129,8 @@ header td:last-child {
     margin-bottom: 40px;
 }
 
-.conteudo {
-    text-align: justify;
+.conteudo p {
+    text-align:justify;
     font-size: 20px;
     color: rgb(65, 128, 157);
 }
@@ -150,13 +150,13 @@ header td:last-child {
 }
 
 .pagi-2 td:first-child {
-    width: 500px;
+    width: 600px;
     height: 350px;
     /* mudando o tamanho do primeiro quadrado */
 }
 
 .pagi-2 td:nth-child(2) {
-    width: 500px;
+    width: 600px;
     height: 350px;
     /* mudando o tamanho do primeiro quadrado */
 }
