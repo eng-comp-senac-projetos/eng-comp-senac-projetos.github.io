@@ -14,8 +14,8 @@ header {
     display: flex;
     align-items: center;
     padding: 5px;
-    width: 100vh;
-    max-width: 100%;
+    width: 100%;
+   
 
 }
 .content {
