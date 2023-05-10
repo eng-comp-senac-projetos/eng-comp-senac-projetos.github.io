@@ -4,11 +4,34 @@
 
 body {
     margin: 0;
-    margin-top: 20px;
-    padding: 0;
 
-    width: 100%;
+    padding: 0;
 }
+
+#limtela{
+
+    width: 100vw;
+    height: 100vh;
+
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+    opacity: 1;
+    height: auto;
+}
+.mobilecont{
+    opacity: 0;
+    height: 0;
+    width: 0;
+}
+
+
 
 header {
     background-color: #ffffff;
@@ -42,7 +65,7 @@ header td:first-child {
 }
 
 header td:nth-child(2) {
-    width: 400px;
+    width: 300px;
 }
 
 header td:nth-child(3),
@@ -54,28 +77,39 @@ header td:nth-child(5) {
 header td:last-child {
     width: 250px;
 }
+
 .content {
     background-image: url('SENAC.jpg');
 
-    background-repeat: no-repeat;
+    width: 100vw;
+    height: 500px;
+    
     background-size: cover;
-    padding: 170px;
     text-align: center;
+
+    position: relative;
+   
     color: rgb(30, 85, 110);
 
     background-position: center center;
+
     font-weight: bold;
     text-shadow: 1 1;
-
-    width: 100%
 }
 
-.container {
-    max-width: 100%;
-    margin: 0 auto;
-    padding: 0 20px;
+.pagi-1{
+
+    width: 100vw;
+    height: 50vh;
+    position: absolute;
+    top: 25%;
+    bottom: 25%;
+
+  
 
 }
+
+
 
 nav a:hover {
     text-decoration: underline;
@@ -93,7 +127,7 @@ nav a {
 }
 
 .logo img {
-    height: 120px;
+    height: 70px;
 }
 
 
@@ -315,4 +349,42 @@ nav a {
 footer {
     margin-top: 10px;
     text-align: center;
+}
+
+
+@media screen and (max-width: 1024px){
+    .container{
+        opacity: 0;
+        width: 0;
+        height: 0;
+    }
+    .mobilecont {
+padding-left: auto;
+padding-right: auto;
+opacity: 1;
+height: auto;
+width: auto;
+    }
+    #logomobile {
+        
+ width: 70px;
+ height: 70px;
+    }
+    #logomobile img{
+        flex: 1;
+        height: 70px;
+    }
+
+    .content h1 {
+        font-size: 45px;
+        margin-bottom: 20px;
+    }
+    
+    .content p {
+        font-size: 20px;
+        line-height: 1.5;
+        max-width: 1000px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
 }
