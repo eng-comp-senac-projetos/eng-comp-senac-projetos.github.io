@@ -372,11 +372,14 @@ height: auto;
 width: auto;
     }
     #logomobile {
-        
- width: 70px;
- height: 70px;
+        opacity: 1;
+        height: auto;
+        width: 70px;
+        height: 70px;
     }
     #logomobile img{
+        opacity: 1;
+        height: auto;
         flex: 1;
         height: 70px;
     }
