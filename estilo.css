@@ -31,6 +31,12 @@ body {
     width: 0;
 }
 
+.mobilecont img{
+    opacity: 0;
+    height: 0;
+    width: 0;
+}
+
 
 
 header {
