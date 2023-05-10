@@ -1,13 +1,11 @@
-body {
-    margin-top: 20px;
-    margin-left: 0px;
-    margin-right: 0px;
-    padding: 0;
+*{
     font-family: 'Montserrat', sans-serif;
-   
-    min-height: 100vh;
-    box-sizing: border-box;
-    max-width: 100%;
+}
+
+body {
+    margin: 0;
+    margin-top: 20px;
+    padding: 0;
 }
 
 header {
@@ -16,12 +14,28 @@ header {
     display: flex;
     align-items: center;
     padding: 5px;
+    width: 100vh;
     max-width: 100%;
 
 }
+.content {
+    background-image: url('SENAC.jpg');
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 170px;
+    text-align: center;
+    color: rgb(30, 85, 110);
+
+    background-position: center center;
+    font-weight: bold;
+    text-shadow: 1 1;
+
+    width: 100%;
+}
 
 .container {
-    max-width: auto;
+    max-width: 100%;
     margin: 0 auto;
     padding: 0 20px;
 
@@ -46,19 +60,7 @@ nav a {
     height: 120px;
 }
 
-.content {
-    background-image: url('SENAC.jpg');
 
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 170px;
-    text-align: center;
-    color: rgb(30, 85, 110);
-
-    background-position: center center;
-    font-weight: bold;
-    text-shadow: 1 1;
-}
 
 
 .content h1 {
@@ -281,6 +283,7 @@ header td:last-child {
     color: rgb(65, 128, 157);
     background-position: center center;
     font-size: 25px;
+    max-width: auto;
 
   
 }
