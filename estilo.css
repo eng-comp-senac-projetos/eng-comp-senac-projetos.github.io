@@ -326,3 +326,50 @@ footer {
     margin-top: 10px;
     text-align: center;
 }
+
+#saiba_mais{
+
+    width: 150px;
+    height: 75px;
+    border-radius: 5px;
+    border-color: #3498db;
+    color: #fff;
+    box-shadow: 0 0 40px 40px #3498db inset, 0 0 0 0 #3498db;
+    -webkit-transition: all 150ms ease-in-out;
+    transition: all 150ms ease-in-out;
+
+        }
+
+    #saiba_mais:hover, #saiba_mais:focus {
+        color: #fff;
+        outline: 0;
+      }
+
+      #saiba_mais:hover {
+        box-shadow: 0 0 10px 0 #3498db inset, 0 0 10px 4px #3498db;
+      }
+
+      
+
+
+      #Participe{
+
+        width: 150px;
+        height: 50px;
+        border-radius: 5px;
+        border-color: #004C94;
+        color: #fff;
+        box-shadow: 0 0 40px 40px #004C94 inset, 0 0 0 0 #004C94;
+        -webkit-transition: all 150ms ease-in-out;
+        transition: all 150ms ease-in-out;
+    
+            }
+    
+        #Participe:hover, #Participe:focus {
+            color: #84DCCF;
+            outline: 0;
+          }
+    
+          #Participe:hover {
+            box-shadow: 0 0 10px 0 #004C94 inset, 0 0 10px 4px #004C94;
+          }
