@@ -2,6 +2,8 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+
+
 body {
     margin: 0;
     padding: 0;
@@ -10,14 +12,11 @@ body {
 }
 
 .container {
-    max-width: 100%;
+    width: 100%;
     height: auto;
-    margin: 0 auto;
-    padding: 0 20px;
-
+    padding-right: auto;
+    padding-left: auto;
 }
-
-
 
 header {
     background-color: #ffffff;
@@ -25,43 +24,36 @@ header {
     display: flex;
     align-items: center;
     padding: 5px;
-    width: 100%;
     margin-left: auto;
     margin-right: auto;
-    
+    width: 100%;
 }
 
 header table {
-    border-collapse: collapse;
-    width: 100%;
-  
+    padding: 2%;
 }
 
 header td {
     border: none;
     text-align: center;
-    padding: 5vh;
-    width: 20%;
-    /* tamanho inicial dos quadrados */
 }
 
 header td:first-child {
-    width: 50px;
-    /* mudando o tamanho do primeiro quadrado */
+    width: 10%;
 }
 
 header td:nth-child(2) {
-    width: 300px;
+    width: 40%;
 }
 
 header td:nth-child(3),
 header td:nth-child(4),
 header td:nth-child(5) {
-    width: 100px;
+    width: 20%;
 }
 
 header td:last-child {
-    width: 250px;
+    width: 30%;
 }
 
 .content {
@@ -122,7 +114,7 @@ nav a {
     color: rgb(65, 128, 157);
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 20px 0;
+    padding: 20px 20px;
     text-align: center;
     background-position: center center;
     font-size: 25px;
@@ -135,10 +127,14 @@ nav a {
     background-size: cover;
     padding: 20px 0;
     text-align: center;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 76, 149);
     background-position: center center;
     font-size: 25px;
     max-width: 100%;
+}
+
+.pagi-2 img{
+    height: 100%;
 }
 
 .conteudo p {
@@ -325,4 +321,37 @@ footer {
 #link4 table{
     margin-left: auto;
     margin-right: auto;
+}
+
+@media(max-width:800px){
+    nav a {
+        font-size: 0px;
+        color: #fff;
+    }
+
+    
+.content h1 {
+    font-size: 40px;
+}
+
+.content p {
+    font-size: 15px;
+}
+
+.pagi-2 {
+    font-size: 20px;
+}
+
+.pagi-2 img{
+    width: 0%;
+    height: 0%;
+}
+
+.pagi-2 td:first-child {
+    width: 100%;
+}
+
+.pagi-2 td:last-child {
+    width: 0%;
+}
 }
