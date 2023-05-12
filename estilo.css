@@ -4,17 +4,8 @@
 
 body {
     margin: 0;
-
     padding: 0;
-}
-
-#limtela{
-
     width: 100%;
-
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .container {
@@ -72,36 +63,20 @@ header td:last-child {
 }
 
 .content {
+
     background-image: url('SENAC.jpg');
-
-    width: 100vw;
-    height: 500px;
-    
-    background-size: cover;
-    text-align: center;
-
-    position: relative;
-   
     color: rgb(30, 85, 110);
-
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 150px 0;
+    text-align: center;
     background-position: center center;
-
     font-weight: bold;
     text-shadow: 1 1;
-}
-
-.pagi-1{
-
-    width: 100vw;
-    height: 50vh;
-    position: absolute;
-    top: 25%;
-    bottom: 25%;
-
-  
+    max-width: 100%;
+    height: auto;
 
 }
-
 
 
 nav a:hover {
@@ -134,38 +109,35 @@ nav a {
 .content p {
     font-size: 30px;
     line-height: 1.5;
-    max-width: 1000px;
+    max-width: 100%;
     margin: 0 auto;
     padding: 0 20px;
 }
 
 
-
-
-
-
 .PERIODOEVENTO {
 
     background-color: rgb(0, 76, 149);
+    color: rgb(65, 128, 157);
     background-repeat: no-repeat;
     background-size: cover;
     padding: 20px 0;
     text-align: center;
-    color: rgb(65, 128, 157);
     background-position: center center;
     font-size: 25px;
+    max-width: 100%;
 }
 
 .pagi-2 {
-    text-align: center;
-    height: 80px;
-    align-items: center;
-    padding: 30px;
-    height: auto;
 
-    font-size: 20px;
-    color: rgb(65, 128, 157);
-    margin-bottom: 40px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px 0;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-position: center center;
+    font-size: 25px;
+    max-width: 100%;
 }
 
 .conteudo p {
@@ -176,7 +148,7 @@ nav a {
 
 .pagi-2 table {
     border-collapse: collapse;
-    width: cover;
+    width: 80%;
 
     margin-left: auto;
     margin-right: auto;
@@ -189,13 +161,13 @@ nav a {
 }
 
 .pagi-2 td:first-child {
-    width: 600px;
+    width: 50%;
     height: 350px;
     /* mudando o tamanho do primeiro quadrado */
 }
 
 .pagi-2 td:nth-child(2) {
-    width: 600px;
+    width: 50%;
     height: 350px;
     /* mudando o tamanho do primeiro quadrado */
 }
@@ -217,7 +189,7 @@ nav a {
 
 #carr{
 
-    width: 1000px;
+    width: 100%;
     height: 1000px;
     background: #fff;
     margin: 0 auto;
@@ -236,7 +208,7 @@ nav a {
 
 #container {
     position: absolute;
-    width: auto;
+    width: 100%;
     height: 100%;
 
     display: inline-flex;
@@ -299,7 +271,7 @@ nav a {
     color: rgb(65, 128, 157);
     background-position: center center;
     font-size: 25px;
-    max-width: auto;
+    max-width: 100%;
 
   
 }
@@ -335,4 +307,21 @@ footer {
     border-color: #004C94;
     background-color: #004C94;
     color: #84DCCF;
+}
+
+.fotos{
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px 0;
+    text-align: center;
+    color: rgb(65, 128, 157);
+    background-position: center center;
+    font-size: 25px;
+    max-width: 100%;
+}
+
+
+#link4 table{
+    margin-left: auto;
+    margin-right: auto;
 }
