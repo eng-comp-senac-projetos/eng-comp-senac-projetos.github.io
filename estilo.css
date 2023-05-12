@@ -351,5 +351,6 @@ footer {
               }
 
     #Participe::after{
+        border-color: #062d52;
         background-color: #062d52;
     }
