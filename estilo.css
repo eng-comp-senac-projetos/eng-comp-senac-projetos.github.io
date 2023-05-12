@@ -347,11 +347,10 @@ footer {
         border-color: #004C94;
         background-color: #004C94;
         color: #84DCCF;
-        cursor: pointer;
+    
 
               }
-
-    #Participe::after{
-        border-color: #062d52;
-        background-color: #062d52;
-    }
+    
+.container td{
+    cursor: pointer;
+}
