@@ -339,7 +339,7 @@ footer {
 
 
 }
-      #Participe::before{
+      #Participe{
 
         width: 150px;
         height: 50px;
@@ -349,3 +349,6 @@ footer {
         color: #84DCCF;
               }
     
+.container td{
+    cursor: pointer;
+}
