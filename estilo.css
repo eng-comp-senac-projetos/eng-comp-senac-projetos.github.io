@@ -351,6 +351,6 @@ footer {
 
               }
     
-.container td{
+.container td button{
     cursor: pointer;
 }
