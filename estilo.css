@@ -357,17 +357,4 @@ footer {
         border-radius: 5px;
         border-color: #004C94;
         color: #fff;
-        box-shadow: 0 0 40px 40px #004C94 inset, 0 0 0 0 #004C94;
-        -webkit-transition: all 150ms ease-in-out;
-        transition: all 150ms ease-in-out;
-    
-            }
-    
-        #Participe:hover, #Participe:focus {
-            color: #84DCCF;
-            outline: 0;
-          }
-    
-          #Participe:hover {
-            box-shadow: 0 0 10px 0 #004C94 inset, 0 0 10px 4px #004C94;
-          }
+      }
