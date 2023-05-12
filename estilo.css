@@ -10,8 +10,7 @@ body {
 
 #limtela{
 
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
 
     text-align: center;
     margin-left: auto;
@@ -22,19 +21,7 @@ body {
     max-width: 100%;
     margin: 0 auto;
     padding: 0 20px;
-    opacity: 1;
-    height: auto;
-}
-.mobilecont{
-    opacity: 0;
-    height: 0;
-    width: 0;
-}
 
-.mobilecont img{
-    opacity: 0;
-    height: 0;
-    width: 0;
 }
 
 
@@ -174,7 +161,7 @@ nav a {
     height: 80px;
     align-items: center;
     padding: 30px;
-    height: 700px;
+    height: auto;
 
     font-size: 20px;
     color: rgb(65, 128, 157);
@@ -302,23 +289,6 @@ nav a {
     z-index: 1;
     background: blue;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .PARCEIROS {
 
     background-color: rgb(0, 76, 149);
@@ -355,45 +325,4 @@ nav a {
 footer {
     margin-top: 10px;
     text-align: center;
-}
-
-
-@media screen and (max-width: 1024px){
-    .container{
-        opacity: 0;
-        width: 0;
-        height: 0;
-    }
-    .mobilecont {
-padding-left: auto;
-padding-right: auto;
-opacity: 1;
-height: auto;
-width: auto;
-    }
-    #logomobile {
-        opacity: 1;
-        height: auto;
-        width: 70px;
-        height: 70px;
-    }
-    #logomobile img{
-        opacity: 1;
-        height: auto;
-        flex: 1;
-        height: 70px;
-    }
-
-    .content h1 {
-        font-size: 45px;
-        margin-bottom: 20px;
-    }
-    
-    .content p {
-        font-size: 20px;
-        line-height: 1.5;
-        max-width: 1000px;
-        margin: 0 auto;
-        padding: 0 20px;
-    }
 }
