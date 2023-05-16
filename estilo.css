@@ -354,4 +354,9 @@ footer {
 .pagi-2 td:last-child {
     width: 0%;
 }
+.conteudo p {
+    text-align:justify;
+    font-size: 14px;
+    color: rgb(65, 128, 157);
+} 
 }
