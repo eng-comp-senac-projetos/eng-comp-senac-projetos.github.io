@@ -15,7 +15,7 @@ body {
     width: 100%;
     height: auto;
     padding-right: 30px;
-    padding-left: 30px;
+    padding-left: auto;
 }
 
 header {
