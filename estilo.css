@@ -392,6 +392,7 @@ footer {
 
     .pagi-2 {
         font-size: 20px;
+        padding: 0px;
     }
 
         .pagi-2 img {
@@ -401,17 +402,21 @@ footer {
 
         .pagi-2 td:first-child {
             width: 100%;
+            padding: 0px;
         }
 
         .pagi-2 #prodcaixa {
             width: 0%;
+            padding: 0px;
         }
 
         .pagi-2 td:last-child {
             width: 0%;
+            padding: 0px;
         }
 
         .pagi-2 #prodcaixa2 {
             width: 100%;
+            padding: 0px;
         }
 }
