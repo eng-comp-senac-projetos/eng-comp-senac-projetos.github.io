@@ -374,7 +374,7 @@ footer {
     width: 100%;
 }
 
- .pagi-2 td:first-child #prodcaixa {
+ .pagi-2 #prodcaixa {
         width: 0%;
     }
 
@@ -382,7 +382,7 @@ footer {
     width: 0%;
 }
 
-    .pagi-2 td:last-child #prodcaixa2 {
+    .pagi-2 #prodcaixa2 {
         width: 100%;
     }
 
