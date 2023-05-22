@@ -374,7 +374,18 @@ footer {
     width: 100%;
 }
 
+ .pagi-2 td:first-child #prodcaixa {
+        width: 0%;
+    }
+
 .pagi-2 td:last-child {
     width: 0%;
 }
+
+    .pagi-2 td:last-child #prodcaixa2 {
+        width: 100%;
+    }
+
+
+
 }
