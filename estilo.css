@@ -100,7 +100,7 @@ nav a {
 }
 
 .content p {
-    font-size: 30px;
+    font-size: 25px;
     line-height: 1.5;
     max-width: 100%;
     margin: 0 auto;
@@ -391,7 +391,7 @@ footer {
     }
 
     .pagi-2 {
-        font-size: 20px;
+        font-size: 15px;
         border: none;
         text-align: center;
         padding: 0px 0px 0px 0px;
