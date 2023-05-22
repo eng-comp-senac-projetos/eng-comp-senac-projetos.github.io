@@ -323,6 +323,29 @@ footer {
     margin-right: auto;
 }
 
+.fotos img{
+    height: 300px;
+}
+
+.fotos table{
+
+    width: 100%;
+    height: auto;
+    padding: 10%;
+}
+.fotos tr{
+    background-color: #004C94;
+    width: 90%;
+    height: auto;
+}
+
+.fotos td{
+   
+    width: 50%;
+    height: auto;
+}
+
+
 @media(max-width:800px){
     nav a {
         font-size: 0px;
