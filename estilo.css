@@ -80,12 +80,13 @@ nav a {
 
 .logo {
     flex: 1;
-    background: url(004C94);
+    
 }
 
     .logo img {
         height: 150px;
         width: auto;
+        background: url(004C94);
     }
 
 
