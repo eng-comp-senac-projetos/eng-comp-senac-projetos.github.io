@@ -34,7 +34,7 @@ btnRight.addEventListener('click', () => {
 
         var stoped = ref * slideContainer.clientWidth / carrossel.clientWidth - carrossel.clientWidth + 100;
 
-        var stopedRound = Mtah.round(stoped);
+        var stopedRound = Math.round(stoped);
 
         slideContainer.style.transform = 'translateX(-' + stopedRound + 'px)';
 
