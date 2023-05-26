@@ -1,7 +1,7 @@
 //variaveis de contagem da direção
 
-var num = 300;
-var num2 = 300;
+var num = 150;
+var num2 = 150;
 
 //slide do botão direito
 
@@ -26,15 +26,15 @@ btnRight.addEventListener('click', () => {
 
         slideContainer.style.transform = 'translateX(-' + num + 'px)';
 
-        num = num + 300;
+        num = num + 150;
 
-        num2 = num2 - 300;
+        num2 = num2 - 150;
 
     } else {
 
         var stoped = ref * slideContainer.clientWidth / carrossel.clientWidth - carrossel.clientWidth + 100;
 
-        var stopedRound = Math.round(stoped);
+        var stopedRound = Mtah.round(stoped);
 
         slideContainer.style.transform = 'translateX(-' + stopedRound + 'px)';
 
@@ -70,14 +70,14 @@ btnLeft.addEventListener('click', () => {
 
         slideContainer.style.transform = 'translateX(' + num2 + 'px)';
 
-        num = num - 300;
-        num2 = num2 + 300;
+        num = num - 150;
+        num2 = num2 + 150;
 
     } else {
 
         slideContainer.style.transform = 'translateX(0)';
 
-        num = 300;
+        num = 150;
 
     }
 
