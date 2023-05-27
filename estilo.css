@@ -231,8 +231,9 @@ nav a {
     top: 0;
     left: 0;
     width: 50px;
+    height: 200px;
     height: 100%;
-    opacity: 0.3;
+    opacity: 0.2;
     cursor: pointer;
     z-index: 3;
 }
@@ -242,8 +243,8 @@ nav a {
     top: 0;
     right: 0;
     width: 50px;
-    height: 100%;
-    opacity: 0.3;
+    height: 200px;
+    opacity: 0.2;
     cursor: pointer;
     z-index: 3;
 }
