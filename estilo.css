@@ -225,28 +225,36 @@ nav a {
 }
 
 
-
-#btnleft {
-    margin-top:auto;
-    margin-bottom: auto;
-    margin-left: 10px;
-    width: 50px;
-    height: 200px;
-    opacity: 0.2;
+.arrow-left,
+.arrow-right {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: auto;
+    bottom: 0;
+    font-size: 20px;
+    line-height: 250px;
+    width: 40px;
+    color: #fff;
+    transition: all 600ms ease-in-out;
+    background: linear-gradient(to left, transparent 0%, black 200%);
+    opacity: 0.1;
     cursor: pointer;
-    z-index: 3;
+    border: none;
 }
 
-#btnright {
-    margin-top:auto;
-    margin-bottom: auto;
-    margin-right: 10px;
-    width: 50px;
-    height: 200px;
-    opacity: 0.2;
-    cursor: pointer;
-    z-index: 3;
+    .arrow-left:hover,
+    .arrow-right:hover {
+        opacity: 1;
+    }
+
+.arrow-right {
+    right: 0;
+    left: auto;
+    text-align: right;
+    background: linear-gradient(to right, transparent 0%, black 200%);
 }
+
 
 #container #limitador {
     position: absolute;
