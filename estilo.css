@@ -227,9 +227,9 @@ nav a {
 
 
 #btnleft {
-    position: absolute;
-    top: 0;
-    left: 0;
+    margin-top:auto;
+    margin-bottom: auto;
+    margin-left: 10px;
     width: 50px;
     height: 200px;
     opacity: 0.2;
@@ -238,9 +238,9 @@ nav a {
 }
 
 #btnright {
-    position: absolute;
-    top: 0;
-    right: 0;
+    margin-top:auto;
+    margin-bottom: auto;
+    margin-right: 10px;
     width: 50px;
     height: 200px;
     opacity: 0.2;
