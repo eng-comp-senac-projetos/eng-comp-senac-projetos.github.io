@@ -32,7 +32,7 @@ btnRight.addEventListener('click', () => {
 
     }
 
-    /* else {
+    else {
     
        var stoped = ref * slideContainer.clientWidth / carrossel.clientWidth - carrossel.clientWidth + 100;
 
@@ -45,7 +45,7 @@ btnRight.addEventListener('click', () => {
 
 
 });
-*/
+
 
 //slide botão esquerdo
 
@@ -76,7 +76,7 @@ btnLeft.addEventListener('click', () => {
         num2 = num2 + 150;
 
     }
-    /*else {
+    else {
 
         slideContainer.style.transform = 'translateX(0)';
 
@@ -85,4 +85,4 @@ btnLeft.addEventListener('click', () => {
     }
 
 
-});*/
+});
