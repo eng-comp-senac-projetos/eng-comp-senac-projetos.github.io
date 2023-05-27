@@ -8,9 +8,9 @@ controls.forEach((control) => {
         isLeft = e.target.classList.contains("arrow-left");
 
         if (isLeft) {
-            currentItem += 1;
-        } else {
             currentItem -= 1;
+        } else {
+            currentItem += 1;
         }
 
         if (currentItem >= maxItems) {
@@ -24,8 +24,9 @@ controls.forEach((control) => {
         items.forEach((item) => item.classList.remove("current-item"));
 
         items[currentItem].scrollIntoView({
+            inline: "center",
             behavior: "smooth",
-            inline: "center"
+            block: "nearest"
         });
 
         items[currentItem].classList.add("current-item");
