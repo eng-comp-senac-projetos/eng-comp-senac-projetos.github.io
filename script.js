@@ -1,88 +1,33 @@
-//variaveis de contagem da direção
+const controls = document.querySelectorAll(".control");
+let currentItem = 0;
+const items = document.querySelectorAll(".itemm");
+const maxItems = items.length;
 
-var num = 150;
-var num2 = 150;
+controls.forEach((control) => {
+    control.addEventListener("click", (e) => {
+        isLeft = e.target.classList.contains("arrow-left");
 
-//slide do botão direito
+        if (isLeft) {
+            currentItem -= 1;
+        } else {
+            currentItem += 1;
+        }
 
-var btnRight = document.getElementById('btnright');
+        if (currentItem >= maxItems) {
+            currentItem = 0;
+        }
 
-btnRight.addEventListener('click', () => {
+        if (currentItem < 0) {
+            currentItem = maxItems - 1;
+        }
 
-    var limi = document.getElementById('limitador').getBoundingClientRect().left;
+        items.forEach((item) => item.classList.remove("current-item"));
 
-    var limit = Math.round(limi);
+        items[currentItem].scrollIntoView({
+            behavior: "smooth",
+            inline: "center"
+        });
 
-    var er = document.getElementById('btnright').getBoundingClientRect().left;
-
-    var ref = Math.round(er);
-
-    var slideContainer = document.getElementById('container');
-
-    var carrossel = document.getElementById('carrossel');
-
-
-    if (limit > ref) {
-
-        slideContainer.style.transform = 'translateX(-' + num + 'px)';
-
-        num = num + 150;
-
-        num2 = num2 - 150;
-
-    }
-
-    else {
-    
-       var stoped = ref * slideContainer.clientWidth / carrossel.clientWidth - carrossel.clientWidth + 100;
-
-        var stopedRound = Math.round(stoped);
-
-        slideContainer.style.transform = 'translateX(-' + stopedRound + 'px)';
-
-
-    }
-
-
-});
-
-
-//slide botão esquerdo
-
-var btnLeft = document.getElementById('btnleft');
-
-btnLeft.addEventListener('click', () => {
-
-
-    var limi = document.getElementById('limitador').getBoundingClientRect().left;
-
-    var limit = Math.round(limi);
-
-    var er = document.getElementById('btnleft').getBoundingClientRect().left;
-
-    var ref = Math.round(er);
-
-    var slideContainer = document.getElementById('container');
-
-    var carrossel = document.getElementById('carrsossel');
-
-    var slide = slideContainer.getBoundingClientRect().left;
-
-    if (slide < ref) {
-
-        slideContainer.style.transform = 'translateX(' + num2 + 'px)';
-
-        num = num - 150;
-        num2 = num2 + 150;
-
-    }
-    else {
-
-        slideContainer.style.transform = 'translateX(0)';
-
-        num = 150;
-
-    }
-
-
+        items[currentItem].classList.add("current-item");
+    });
 });
