@@ -230,21 +230,23 @@ nav a {
 
 
 #btnleft {
-   
-
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 50px;
     height: 100%;
-    opacity: 0.2;
+    opacity: 0.3;
     cursor: pointer;
     z-index: 3;
 }
 
 #btnright {
-
-
+    position: absolute;
+    top: 0;
+    right: 0;
     width: 50px;
     height: 100%;
-    opacity: 0.2;
+    opacity: 0.3;
     cursor: pointer;
     z-index: 3;
 }
