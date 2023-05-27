@@ -45,7 +45,7 @@ btnRight.addEventListener('click', () => {
 
 
 });
-
+*/
 
 //slide botão esquerdo
 
@@ -75,7 +75,8 @@ btnLeft.addEventListener('click', () => {
         num = num - 150;
         num2 = num2 + 150;
 
-    } else {
+    }
+    /*else {
 
         slideContainer.style.transform = 'translateX(0)';
 
