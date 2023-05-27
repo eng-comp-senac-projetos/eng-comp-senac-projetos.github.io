@@ -1,6 +1,6 @@
 const controls = document.querySelectorAll(".control");
 let currentItem = 0;
-const items = document.querySelectorAll(".item");
+const items = document.querySelectorAll(".itemm");
 const maxItems = items.length;
 
 controls.forEach((control) => {
