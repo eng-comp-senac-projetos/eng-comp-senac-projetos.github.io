@@ -174,7 +174,7 @@ nav a {
 .container1 {
     position: relative;
     padding: 15px;
-    max-width: 640px;
+    max-width: 100%;
     margin: 0 auto;
 }
 
