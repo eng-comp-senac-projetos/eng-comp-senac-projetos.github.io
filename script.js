@@ -30,9 +30,11 @@ btnRight.addEventListener('click', () => {
 
         num2 = num2 - 150;
 
-    } else {
+    }
 
-        var stoped = ref * slideContainer.clientWidth / carrossel.clientWidth - carrossel.clientWidth + 100;
+    /* else {
+    
+       var stoped = ref * slideContainer.clientWidth / carrossel.clientWidth - carrossel.clientWidth + 100;
 
         var stopedRound = Math.round(stoped);
 
@@ -82,4 +84,4 @@ btnLeft.addEventListener('click', () => {
     }
 
 
-});
+});*/
