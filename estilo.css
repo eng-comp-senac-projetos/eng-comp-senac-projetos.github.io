@@ -192,7 +192,7 @@ nav a {
     font-size: 20px;
     line-height: 250px;
     width: 40px;
-    color: #fff;
+    color: rgb(65, 128, 157);
     transition: all 600ms ease-in-out;
     background: linear-gradient(to left, transparent 0%, black 200%);
     opacity: 0.1;
@@ -209,7 +209,7 @@ nav a {
     right: 0;
     left: auto;
     text-align: right;
-    background: linear-gradient(to right, transparent 0%, black 200%);
+    background: linear-gradient(to right, transparent 0%, rgb(65, 128, 157) 200%);
 }
 
 .gallery {
