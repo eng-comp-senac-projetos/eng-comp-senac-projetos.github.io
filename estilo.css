@@ -197,7 +197,7 @@ nav a {
     width: 40px;
     color: rgb(65, 128, 157);
     transition: all 600ms ease-in-out;
-    background: linear-gradient(to left, transparent 0%, black 200%);
+    background: linear-gradient(to left, transparent 0%, rgb(65, 128, 157) 200%);
     opacity: 0.1;
     cursor: pointer;
     border: none;
