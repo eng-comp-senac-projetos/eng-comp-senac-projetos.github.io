@@ -222,8 +222,7 @@ nav a {
 }
 
 .item {
-    width: 250px;
-    height: 250px;
+    width: 300px;
     flex-shrink: 0;
     transition: all 600ms ease-in-out;
     opacity: 0.5;
