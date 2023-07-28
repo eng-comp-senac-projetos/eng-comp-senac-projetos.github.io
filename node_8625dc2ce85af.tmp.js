@@ -1,7 +1,6 @@
     * {
         margin: 0;
         padding: 0;
-        font-family: 'Montserrat', sans-serif;
     }
 
     a {
@@ -30,24 +29,9 @@
     }
 
     main {
-
-      background-image: url('SENAC.png');
-      color: rgb(30, 85, 110);
-      background-repeat: no-repeat;
-      background-size: cover;
-      padding: 150px 0;
-      text-align: center;
-      font-weight: bold;
-      text-shadow: 1 1;
-      max-width: 100%;
-      height: auto;
-      background-size: cover;
-      height: 92vh;
-
-    }
-
-    main h1{
-      font-size: 40px;
+        background: url("SENAC.png") no-repeat center center;
+        background-size: cover;
+        height: 92vh;
     }
 
     .nav-list {
@@ -132,9 +116,14 @@
       }
 
 
-
-
       #sec1-titulo{
-
+        display: block;
+        height: 500px;
+        line-height: 500px;
     
+      }
+
+      #sec1-titulo-texto{
+        display: inline-block;
+        vertical-align: middle;
       }
